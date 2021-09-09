@@ -1,7 +1,0 @@
-local IDs = {
-    286090429 -- Arsenal
-}
-
-if table.find(IDs, game.PlaceId) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SupercoolU30/MrCoolHub/main/"..game.PlaceId..".lua"))()
-end
